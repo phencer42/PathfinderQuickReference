@@ -127,3 +127,8 @@ Each table of the database will represent a different content type (i.e. spells,
 # Design Notes
 
 None at this time.
+
+----------------------------------------------------
+# Things that need a good place in the database
+
+-Table: Items Affect By Magical Attacks (http://www.d20pfsrd.com/magic#Table-Items-Affected-by-Magical-Attacks)
