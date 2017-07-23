@@ -18,41 +18,89 @@ PQR runs with a fairly simple Android Java front end with a search library inter
 ----------------------------------------------------
 # Content Types
 
-Below are the content types that this app will search through as well as the fields that will be detailed in the database for each. Fields with a * next to them will be displayed in the main search results without having to click the field for more details. Fields with a ~ next to them will not be present for all elements of that type.
+Below are the content types that this app will search through as well as the fields that will be detailed in the database for each. Fields with a $ next to them will be displayed in the main search results without having to click the field for more details. Fields with a ~ next to them will not be present for all elements of that type.
 
 Spells
--Name*
--Class Level*
--Elemental School~*
--Quick Description*
--Casting Time*
--Range*
--Target~*
--Effect~*
--Duration*
--Components*
+-Name$
+-Class Level$
+-Elemental School~$
+-Quick Description$
+-Casting Time$
+-Range$
+-Target~$
+-Effect~$
+-Duration$
+-Components$
 -Costs Money
 -School
 -Spell Resistance
 -Full Description
 
 Wondrous Items
--TBD
+-Name$
+-Slot$
+-Cost$
+-CL
+-Aura
+-Weight
+-Construction Requirements
+-Quick Description$
+-Full Description
 
 Conditions
--TBD
+-Name$
+-Quick Description$
+-Full Description
 
 Weapons
--TBD
+-Name$
+-Category$
+-Cost$
+-Dmg (S)$
+-Dmg (M)$
+-Critical$
+-Range$
+-Weight
+-Damage Type
+-Special
+-Has Detailed Description$
+-Detailed Description
 
-Armor
--TBD
+Armor & Shields
+-Name$
+-Cost$
+-Armor/Shield Bonus$
+-Maximum Dex Bonus
+-Armor Check Penalty$
+-Arcane Spell Failure Chance
+-Speed 30 ft.$
+-Speed 20 ft.$
+-Weight
+-Complete Description
 
 Class
--TBD
+-Name$
+-Role
+-Alignment
+-Hit Die$
+-Starting Wealth
+-Class Skills
+-Skill Ranks Per Level$
+-Class Table$
+-Weapon Proficiency$
+-Armor Proficiency$
+
+Class Special Abilities
+-Name$
+-Quick Description$
+-Full Description
 
 Feats
--TBD
+-Name$
+-Prerequisites$
+-Quick Description$
+-Category
+-Full Description
 
 Possibly more
 
