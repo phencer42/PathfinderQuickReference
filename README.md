@@ -126,7 +126,7 @@ Each table of the database will represent a different content type (i.e. spells,
 ----------------------------------------------------
 # Design Notes
 
-None at this time.
+For spells, if there is a saving throw marked as (harmless), the saving throw and spell resistance will not be shown on the search page.
 
 ----------------------------------------------------
 # Things that need a good place in the database
